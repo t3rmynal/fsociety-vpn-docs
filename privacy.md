@@ -27,7 +27,7 @@ Every table is locked down with Row-Level Security: the public anon key cannot r
 | `sub_until` | timestamptz, nullable | Subscription expiry. Null when no active subscription. |
 | `notes` | text, nullable | Operator notes (e.g. "friend referral", written manually). Never auto-populated. |
 
-**`devices`** — one row per device tied to an account, max three per account.
+**`devices`** - one row per device tied to an account, max three per account.
 
 | column | type | what it holds |
 |--------|------|---------------|
@@ -36,7 +36,7 @@ Every table is locked down with Row-Level Security: the public anon key cannot r
 | `name_words` | text | Three-word human readable name like `Hacker Anonymous Killer`, generated locally. |
 | `last_seen` | timestamptz | Updated when the device sends a heartbeat (every few minutes while open). |
 
-**`servers`** — public server inventory, no user data.
+**`servers`** - public server inventory, no user data.
 
 | column | type | what it holds |
 |--------|------|---------------|
@@ -59,7 +59,7 @@ Every table is locked down with Row-Level Security: the public anon key cannot r
 | `status` | text | `'pending'`, `'confirmed'`, or `'cancelled'`. |
 | `tg_note` | text, nullable | Short operator note linking the payment to a Telegram conversation. Plain text, written by hand. |
 
-**`request_counts`** — sliding-window rate limit counters by IP or key hash. Two-hour rolling retention, automatic cleanup. No personal information beyond the source IP of an API call.
+**`request_counts`** - sliding-window rate limit counters by IP or key hash. Two-hour rolling retention, automatic cleanup. No personal information beyond the source IP of an API call.
 
 ### On your device
 
@@ -124,5 +124,4 @@ The "Last updated" date above changes when this document changes. Material chang
 ## Contact
 
 - Telegram: [@aimwork](https://t.me/aimwork)
-- GitHub: [t3rmynal/fsociety-vpn/issues](https://github.com/t3rmynal/fsociety-vpn/issues)
 - Source of this document: [fsociety-vpn-docs/privacy.md](https://github.com/t3rmynal/fsociety-vpn-docs/blob/main/privacy.md)
