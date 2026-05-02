@@ -18,7 +18,7 @@ A small set of database rows in our authentication backend (Supabase Postgres) a
 
 Every table is locked down with Row-Level Security: the public anon key cannot read or write any of these directly. Access is only through audited Postgres functions. Operator access uses a separate service-role key kept off the client.
 
-**`keys`** — one row per account.
+**`keys`** - one row per account.
 
 | column | type | what it holds |
 |--------|------|---------------|
