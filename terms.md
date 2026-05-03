@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Last updated**: 2026-05-02 
+**Last updated**: 2026-05-03 
 
 These Terms of Service ("Terms") govern your use of fsociety vpn (the "Service"). By creating an account or otherwise using the Service, you agree to these Terms. If you do not agree, do not use the Service.
 
