@@ -2,7 +2,7 @@
 
 **Last updated**: 2026-05-02
 
-Plain English. No tracking, no logs, no analytics. We try to keep this honest.
+No tracking, no logs, no analytics. We keep this honest.
 
 ## What we do not keep
 
